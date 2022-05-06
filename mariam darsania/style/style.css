@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 20px 50px;
+    background-color: #C4C4C4;
+}
+ul{
+    width: 500px;
+
+}
+ul li a{
+    color: #000000;
+}
+.fa-film{
+    font-size: 20px;
+}
+.fa-film:hover{
+    color: #3be940;
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/toothless_light_fury.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.arrowdown{
+    width: 50px;
+    margin: 0 auto;
+}
+.fa-chevron-down{
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+}
+.newscontainer{
+    width: 90%;
+    margin: 30px auto;
+}
+.news{
+    width: 33.33%;
+    background-color: #FF9900;
+}
+.news .imgdiv{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.newstext{
+    width: 100%;
+}
+.news .imgdiv  img{
+    width: 100%;
+    padding: 20px;
+}
+.news a{
+    color: rgba(0, 0, 0, 0.5)
+}
+.color2{
+    background-color: #FFC700;
+}
+.color3{
+    background-color: #FFE600;
+}
+.newsinfo{
+    width: 100%;
+    background-color: #FF9900;
+}
+.newsimages{
+    width: 100%;
+}
+.newsimage{
+    width: 33.33%;
+    height: 200px;
+    overflow: hidden;
+}
+.newsimage img{
+    width: 100%;
+}
+.news1 h2, .new1 p{
+    padding: 10px 30px;
+}
+.newcolor2{
+    background-color: #FFC700;
+}
+.newcolor3{
+    background-color: #FF9900;
+}
+.map{
+    width: 500px;
+    margin: 0 auto;
+}
+.map img{
+    width: 100%;
+}
+.newsinfo p a{
+    display: block;
+}
+.newsinfo p img{
+    width: 100px;
+    display: block;
+}

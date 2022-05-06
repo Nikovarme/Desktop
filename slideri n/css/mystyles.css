@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #357e9b;
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.owl-theme .owl-nav [class*='owl-']{
+    font-size: 100px!important;
+    color: #2d393d!important;
+    
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: rgba(0, 0, 0, 0);   
+}
+.diviko{
+    height: 150px;
+    overflow: hidden;
+}
+

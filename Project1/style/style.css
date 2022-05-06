@@ -1,0 +1,157 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 30px;
+    background-image: url(../img/galaxy.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 95%;
+    position: fixed;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+nav .icon .fa-clapperboard{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+nav .icon .fa-clapperboard:hover{
+    color: #fd0505;
+}
+.arrow-down{
+    text-align:center;
+    margin:0 auto;
+    
+}
+.arrow-down .fa-angle-down{
+color: #ffffff;
+font-size: 50px;
+position: absolute;
+bottom: 0px;
+}
+
+ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li a{
+    color: #FFFFFF;
+    padding: 5px 10px;
+ /*   background-color: blue; */
+ 
+}
+ul li a:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+.slider{
+    width: 100%;
+    height: 400px;
+    background-color: #3D3D3D;
+}
+.news{
+    width: 33.33%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.news-container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.news1{
+    background-color: #FF9900;
+}
+.news2{
+    background-color: #FFC700;
+}
+.news3{
+    background-color: #FFE600;
+}
+.active{
+    border-bottom: 1px solid #FFFFFF;
+}
+.newsimage{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.newsimage img{
+    width: 100%;
+    margin-top: -30px;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.news p{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+    overflow: hidden;
+}
+.news span a{
+    padding: 20px 10px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+footer{
+    padding: 50px 30px;
+}
+.inner{
+    padding: 20px 50px;
+}
+.inner span a{
+    padding: 10px 0px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.inner-news{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #FF9900;
+}
+.inner2color{
+    background-color: #FFC700;
+
+}
+.imgdiv{
+
+    width: 33.33%;
+    height: 200px;
+    overflow: hidden;
+    
+}
+.imgdiv img{
+    width: 100%;
+    margin-top: -50px;
+}
+.horizontal{
+    display: flex;
+    margin: 20px 0px;
+}
+.inner p{
+    padding: 0px 20px;
+}
+.news-container .news span{
+    display: block;
+    margin-top: 20px;
+}
+.new-container .news span a{
+    color: rgba(0, 0, 0, 0.5);
+}

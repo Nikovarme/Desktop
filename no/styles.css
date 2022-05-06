@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    margin-left: 1200px;
+    padding: 30px;
+
+}
+ul{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li{
+   
+}
+li a{
+    padding: 10px 10px;
+    border-radius: 0px 20px;
+    background-color: rgb(77, 153, 77); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.divikuna{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(13, 141, 13);
+
+   margin-left: 1000px ;
+}
+.perti{
+    font-size: 27px;
+}
+.pori{
+    font-size: 47px;
+}
+
+.mwvane{
+    width: 26px;
+    height: 26px;
+    background-color: rgb(31, 100, 31);
+    border-radius: 50%;
+    margin-top: -300px;
+    margin-left: 970px;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    background-image: url(../img/ukrainian-village-chicago-churchj.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    opacity: 0.5;
+    z-index: 1;
+}
+/*
+nav{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(254,245,58, 0.5);
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    margin-left: 40%;
+}
+nav li{
+    padding-left: 70px;
+}
+nav a{
+    color: #000000;
+    margin-left: 50%;
+    font-size: 25px;
+}
+*/
+.uk{
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    left: 50%;
+    margin-left: -95px;
+    background-color: rgba(40,99,154, 0.5);
+    border-radius: 20px;
+    border: 1px solid black;
+    z-index: 2;
+}
+.uk a{
+    font-size: 30px;
+    margin-left: 7px;
+    color: #000000;
+}
+.news{
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    margin-left: 70px;
+    top: 70px;
+}
+
+.text{
+   margin-top: 100px;
+}
+.news div{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    left: 53%;
+    margin-left: -85px;
+    background-color: rgba(40,99,154, 0.5);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.news div p{
+    font-size: 20px;
+    margin-left: 7px;
+    color: #000000;
+}

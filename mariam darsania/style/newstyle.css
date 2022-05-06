@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+#mshobeli{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(178, 87, 235);
+    padding: 100px;
+    margin: 50px;
+}
+.shviliko{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(208, 219, 59);
+    padding: 100px;
+    overflow: hidden;
+}
+.shviliko img{
+    width: 100%;
+
+}

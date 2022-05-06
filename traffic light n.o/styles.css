@@ -1,0 +1,15 @@
+.bulb{
+    width: 200px;
+
+}
+.bulb img{
+    width: 100%;
+}
+.bulbmain{
+    background-image: none;
+}
+.gilaki{
+    width: 200px;
+    padding: 10px;
+    background-color: #036300;
+}

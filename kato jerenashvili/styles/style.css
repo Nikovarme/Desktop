@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.person, .person th, .person td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.person th{
+    background-color: grey;
+}
+.person th, .person td{
+    border-radius: 10px;
+}
+.mrgvali tr, .mrgvali td{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.mrgvali td{
+    padding: 5px 20px;
+}
+
+
+
+
+
+
+
+
+.chemi, .chemi tr, .chemi td{
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+.chemi td{
+    padding: 25px 150px;
+}
+.isev, .isev tr, .isev td{
+    border: 1px dashed black;
+    border-collapse: collapse;
+}
+.isev td{
+    padding: 25px 150px;
+}
+
+.person{
+    width: 600px;
+}
+.satauri, .satauri th, .satauri td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+.studentebi, .studentebi th, .studentebi td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.studentebi{
+    width: 80%;
+    margin: 50px auto;
+}
+.studentebi tr:nth-child(even){
+    background-color: pink;
+}
+.studentebi tr:nth-child(odd){
+    background-color: green;
+}
+.studentebi tr td:hover{
+    background-color: orange;
+}
